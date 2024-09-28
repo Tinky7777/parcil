@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e939b12218.js" crossorigin="anonymous"></script>
+    
+    <title>MAZARIEGOS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ruta/a/tu/script.js"></script>
+
+
+</head>
+
+<body>
+
+   
+    <header>
+        <div class="logo">
+            <a href="#" class="logo">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <img src="logo.png" alt="logo Agro" class="logo-img">
+                <p class="logo-nombre"></p>
+            </a>
+        </div>
+        <nav>
+            <a href="#" class="nav-link">INICIO</a>
+            <a href="#" class="nav-link">GALERÍA</a>
+            <a href="#" class="nav-link">SERVICIOS</a>
+            <a href="#" class="nav-link">SOBRE NOSOTROS</a>
+        </nav>
+    </header>
+
+   
+    <section id="nosotros">
+        <h2>¡Lo Mejor para tu Agro!</h2>
+        <h1> Ganado y Equipos Agrícolas</h1>
+        <p>
+            MAZARIEGOS te ofrece la mejor selección de ganado bovino y equipos agrícolas a  buen precio. Nuestra misión es mejorar tu experiencia de compra y asegurar el éxito de tu granja o finca. Ofrecemos equipos de alta calidad y ganado certificado.
+        </p>
+        <img src="vaca2.jpeg" alt="Ganado Bovino" class="nosotros-img">  
+    </section>
+
+  
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="galeria-container">
+            <img src="vaca3.jpeg" alt="Galería de productos 1" class="galeria-img">
+            <img src="vacs4.jpeg" alt="Galería de productos 2" class="galeria-img">
+            <img src="vaca5.jpeg" alt="Galería de productos 3" class="galeria-img">
+            <img src="vaca6.jpeg" alt="Galería de productos 4" class="galeria-img">
+        </div>
+    </section>
+    
+    
+
+   
+    <section id="servicios">
+        <h1 style="color:rgb(0, 0, 0)">Nuestros Servicios</h1>
+        <ul>
+            <li>Venta de ganado bovino de alta calidad.</li>
+            <li>Venta de equipos agrícolas: tractores, sembradoras, y más.</li>
+            <li>Asesoría técnica para el manejo de ganado.</li>
+            
+        </ul>
+    </section>
+
+   
+    <section id="caracteristicas">
+        <h2>Características de Nuestros Productos</h2>
+        <div class="caracteristicas">
+            <div class="iconos">
+                <button><i class="fa-solid fa-cow"></i><h3>Ganado Certificado</h3></button>
+                <button><i class="fa-solid fa-tractor"></i><h3>Equipos de Alta Tecnología</h3></button>
+                <button><i class="fa-solid fa-handshake"></i><h3>Asesoría Personalizada</h3></button>
+                <button><i class="fa-solid fa-leaf"></i><h3>Productos Eco-Friendly</h3></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="terrenos">
+        <h2>Productos Destacados</h2>
+        <ul>
+            <li>✅ Ganado bovino con certificación de calidad.</li>
+            <li>✅ Tractores de última generación.</li>
+            <li>✅ Implementos agrícolas de vanguardia.</li>
+            <li>✅ Soluciones completas para tu finca.</li>
+        </ul>
+        <img src="agri.jpeg" alt="Equipo agrícola" class="productos-img">
+    </section>
+
+    
+ 
+
+
+    <footer>
+        <a href="#">Ubicación</a>
+        <a href="#">Teléfono</a>
+        <p>Mazatenango</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <p>2024 AgroVenta | Todos los Derechos Reservados</p>
+    </footer>
+
+    <script>
+        const galeriaImgs = document.querySelectorAll('.galeria-img');        
+        galeriaImgs.forEach(img => {
+            img.addEventListener('click', () => {  
+                alert(`Has hecho clic en: ${img.alt}`);
+            });
+        });
+    </script>
+
+</body>
+</html>
